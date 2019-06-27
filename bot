@@ -1,1 +1,13 @@
-
+it clone https://github.com/janlou/AdvanSource
+cd AdvanSource
+cd .run
+chmod 777 adv
+bash adv
+bash 1
+bash 2
+bash 3
+cd ..
+chmod 777 start.sh
+./start.sh install
+./start.sh
+./start.sh api
